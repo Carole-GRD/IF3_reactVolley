@@ -1,0 +1,67 @@
+
+$font-1: "font-1", sans-serif;
+
+// $color-1: #ffa69e;
+// $color-2: #faf3dd;
+// $color-3: #b8f2e6;
+// $color-4: #aed9e0;
+// $color-5: #5e6472;
+
+// $color-1: #0081a7;
+// $color-2: #00afb9;
+// $color-3: #fdfcdc;
+// $color-4: #fed9b7;
+// $color-5: #f07167;
+
+
+$color-1: rgb(3, 103, 166);
+$color-12: #b6e3ff85;
+
+$color-2: #04D9C4;
+$color-23: #04d9c429;
+
+$color-3: #0DF205;
+$color-4: #F29F05;
+$color-5: #0D0D0D;
+$color-6: #aeaeae;
+$color-7: rgb(235, 235, 235);
+$color-71: #f7f7f7;
+$color-8: crimson;
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom right, #b6e3ffe5, #b6e3ffe5), url('../assets/img/filet_ciel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    main {
+        margin-top: 8vh;
+        padding-top: 5vh;
+        
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        }
+}
+
+
+
+.buttonAdmin {
+    border: none;
+    padding: 5px 10px;
+    height: 70px;
+    width: 150px;
+    color: $color-71;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    background-color: $color-1;
+    border-radius: 5px;
+    cursor: pointer;
+}

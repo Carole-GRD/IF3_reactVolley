@@ -1,0 +1,122 @@
+// .containerCalendar {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     margin: 2%;
+//     border: none;
+//     // border: 1px solid red;;
+//     border-radius: 5px;
+//     background-color: $color-7; 
+//     cursor: pointer;
+//     width: 70%;
+//     .card {
+//         display: inline-block;
+//         margin: 2%;
+//         width: 100%;
+//         text-align: center;
+//         font-family: Verdana, Geneva, Tahoma, sans-serif;
+//         color: $color-5;
+//         // border: 1px solid blue;
+//         button {
+//             margin: 2%;
+//             cursor: pointer;
+//         }
+//     }
+// }
+
+
+
+.containerCalendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin: 2%;
+    border: none;
+    border-radius: 5px;
+    background-color: $color-7;
+    cursor: pointer;
+    .cardCalendar {
+        margin: 2%;
+        width: 50vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: $color-5;
+        .cardTextCalendar {
+            padding-left: 10%;
+        }
+        .containerButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .buttonPlayer {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 2%;
+                button {
+                    margin: 2% 5%;
+                    border: none;
+                    padding: 20px 60px;
+                    margin: 10px 25px 10px 25px;
+                    color: $color-71;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                .buttonPresent {
+                    // background-color: $color-3;
+                    border: 2px solid $color-3;
+                    color: $color-3;
+                    background-color: $color-71;
+                    
+                }
+                .buttonPresent.present {
+                    color: $color-71;
+                    background-color: $color-3; 
+                }
+                .buttonAbsent {
+                    // background-color: $color-4;
+                    border: 2px solid $color-6;
+                    color: $color-6;
+                    background-color: $color-71;
+                }
+                .buttonAbsent.absent {
+                    color: $color-71;
+                    background-color: $color-6; 
+                }
+            }
+            .matchSheet {
+                margin-bottom: 5%;
+                padding: 4% 15%;
+                border: none;
+                padding: 10px 30px;
+                // background-color: $color-2;
+                // color: $color-71;
+                border: 2px solid $color-1;
+                color: $color-1;
+                background-color: $color-71;
+                font-family: V7rdana, Geneva, Tahoma, sans-serif;
+                font-size: 1.1rem;
+                font-weight: 500;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }  
+    }
+}
+
+.spaceButtonCalendar {
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    button {
+        margin: 2% 5%;
+        height: 50px;
+        width: 150px;
+        cursor: pointer;
+    }
+}
